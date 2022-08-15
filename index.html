@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leu's, To-Do-App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;600;800&family=Raleway:wght@100;200;300;500;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+
+    <main class="app">
+
+        <section class="create-todo">
+            <h1> My Weekly Tasks To-Do </h1>
+            <form id="new-todo-form">
+                <input id="content" 
+                type="text" 
+                name="content" 
+                placeholder="Task(s) To-Do and duration? e.g. Code for 24 hours" required>
+                <input id="date" 
+                type="date" 
+                name="date" required>
+
+            <input type="submit" value="Add Task" />
+
+            </form>
+
+        </section>
+
+
+        <section class="todo-list">
+            <h2>Things To- Do List</h2>
+            <div class="list" id="todo-list"></div>
+        </section>
+
+        <button onclick="sortAlphabetically()" id="alphabetically"
+        name="sortAlphabet" 
+        value="sort">Sort alphabetically</button>
+
+                        
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
