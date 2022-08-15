@@ -38,9 +38,8 @@ h1 {
     display: block;
     width: 100%;
     font-size: 4rem;
-    color:rgba(21, 73, 60, 0.75);
     padding: 3rem;
-    color: var(--white);
+    color: var(--green);
     border-radius: 0.5rem;
     box-shadow: var(--green-glow);
     margin-bottom: 1rem;
