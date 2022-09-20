@@ -8,6 +8,8 @@
 ![TODO!](To_Do_App.png)
   
 
+The App should allow the user to perfom the following tasks
+
 • Add tasks to the list
 
 • Delete tasks from the list
